@@ -1,0 +1,49 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: Roboto; 
+    
+}
+
+.caja {
+    background: white;
+    border: 20px;
+    width: 600px;
+    height: 720px;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.header-caja{
+    display: flex;
+  
+
+}
+
+
+.header-caja p {
+  color: grey;
+  margin-left: -106px;
+  margin-top: 60px;
+    
+}
+
+.body-caja img {
+    width: 100%;
+    height: 500px;
+    display: flex
+}
+
+.footer-caja {
+    margin-left: 15px;
+    
+}
+
+.post-icons {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+  
+}
