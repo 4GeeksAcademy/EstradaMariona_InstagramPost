@@ -8,7 +8,7 @@ body {
     background: white;
     border: 20px;
     width: 600px;
-    height: 720px;
+    height: 740px;
     margin:auto;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -16,18 +16,36 @@ body {
 
 .header-caja{
     display: flex;
-  
-
-}
-
-
-.header-caja p {
-  color: grey;
-  margin-left: -106px;
-  margin-top: 60px;
     
 }
+.logoInstagram {
+    display: flex;
+    justify-content:left;
+    font-size: 50px;
+    margin: 10px;
 
+}
+
+.barra {
+    display: flex;
+    justify-content:right;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.titulo {
+    display: block;
+    justify-content: left;
+ 
+
+}
+
+.titulo p {
+    color:grey;
+    margin-top: -15px;
+}
 .body-caja img {
     width: 100%;
     height: 500px;
@@ -40,10 +58,20 @@ body {
 }
 
 .post-icons {
-    display: flex;
-    margin-left: 10px;
+    display: inline-flexbox;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 25px;
+    font-size: 30px;
+    justify-content:left;
     
   
+}
+
+.bookmark {
+    display: flex;
+    margin-left: 550px;
+    margin-top: -55px;
+    margin-bottom: 25px;
+    font-size: 30px;
 }
